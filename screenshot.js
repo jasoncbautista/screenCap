@@ -1,4 +1,5 @@
-/*  phantomjs screenshot.js localhost:8181 fileName.png
+/*
+    phantomjs screenshot.js http://localhost:8181/ fileName2.png
  *
  **/
 var page = require('webpage').create();

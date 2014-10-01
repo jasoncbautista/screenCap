@@ -29,7 +29,8 @@ Run a simple python server:
 python -m SimpleHTTPServer 8181
 
 Take a lil screenshot:
-phantomjs screenshot.js localhost:8181 fileName.png
+
+phantomjs screenshot.js http://localhost:8181/ fileName2.png
 
 
 phantomjs  -v
