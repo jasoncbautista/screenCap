@@ -20,9 +20,16 @@ sudo ln -s /usr/local/share/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/loca
 sudo ln -s /usr/local/share/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/bin/phantomjs
 
 
+/usr/bin/phantomjs  -v
 # Run:
 
-/usr/bin/phantomjs  -v
+
+Run a simple python server:
+
+python -m SimpleHTTPServer 8181
+
+Take a lil screenshot:
+phantomjs screenshot.js localhost:8181 fileName.png
 
 
 phantomjs  -v
