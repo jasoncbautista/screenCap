@@ -10,7 +10,7 @@ console.log(args[0]);
 var url = args[1];
 var outputFile= args[2];
 
-page.viewportSize = { width: 1200, height: 1600 };
+page.viewportSize = { width: 550, height: 240};
 
 page.open(url, function() {
   setTimeout(function(){
